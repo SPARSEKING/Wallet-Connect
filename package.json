@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@reown/appkit": "^1.0.4",
+    "@reown/appkit-adapter-wagmi": "^1.0.4",
+    "@wagmi/core": "^2.13.7",
+    "@web3modal/wagmi": "^5.1.9",
+    "nuxt": "^3.13.0",
+    "viem": "^2.21.15",
+    "vue": "latest",
+    "vue-router": "latest",
+    "wagmi": "^2.12.14"
+  }
+}
